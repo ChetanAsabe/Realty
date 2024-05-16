@@ -289,7 +289,7 @@ img{
   box-sizing: border-box;
 }
 body{
-  background-image: url("/New/images\ \(1\).jpeg");
+  background-image: url("/assets/background.jpeg");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -369,10 +369,21 @@ h2{
 }
 
 input{
-  padding: .2rem;
-  width: 90%;
+  padding: .4rem;
+  /* height: 40px; */
   border: none;
   border-radius: .3rem;
+}
+
+table {
+  background-color: lightgoldenrodyellow;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+tr, td {
+  padding: 10px;
+  border-collapse: collapse;
 }
 
 

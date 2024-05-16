@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <!--css-->
-    <link rel="stylesheet" href="/CSS/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
 
     <link
       rel="shortcut icon"
@@ -36,6 +36,12 @@
               <a href="#home" class="nav__link">Home</a>
             </li>
             <li class="nav__item">
+              <a href="#products" class="nav__link">Buy/Rent</a>
+            </li>
+            <li class="nav__item">
+              <a href="#sell" class="nav__link">Sell</a>
+            </li>
+            <li class="nav__item">
               <a href="#services" class="nav__link">Service</a>
             </li>
             <li class="nav__item">
@@ -44,9 +50,9 @@
             <li class="nav__item">
               <a href="#footer" class="nav__link">Contact</a>
             </li>
-            <li class="nav__item">
+            <!-- <li class="nav__item">
               <a href="#signup" class="nav__link">Sign up</a>
-            </li>
+            </li> -->
           </ul>
 
           <div class="nav__close" id="nav-close">
@@ -87,23 +93,63 @@
         </div>
       </section>
 
-
       <!===== Products =====>
 
       <section class="product section container" id="products">
         <h2 class="section__title-center">Featured Listings</h2>
 
-        <div class="product__container grid">
+        <div class="product__container grid" id="pContainer">
           <article class="product__card">
             <a href="/product.html">
-              <img
-                src="/assets/Home1.jpg"
-                alt=""
-                class="product__img"
-              />
+              <img src="/assets/homee1.jpg" alt="" class="product__img" />
             </a>
-            <h3 class="product__title">Orchard House</h3>
-            <span class="product__price">24999.00</span>
+            <h3 class="product__title">2 BHK Apartment</h3>
+            <span class="product__price">46.88L</span>
+            <p class="product__description">
+              It has a built-up area of 756 sqft and is priced at Rs. 46.88 lac
+              . It is an unfurnished property.
+            </p>
+            <button class="button--flex product__button">
+              <i class="ri-heart-line"></i>
+            </button>
+          </article>
+
+          <article class="product__card">
+            <a href="/product.html">
+              <img src="/assets/home2.jpeg" alt="" class="product__img" />
+            </a>
+            <h3 class="product__title">4 BHK Apartment</h3>
+            <span class="product__price">3.71CR</span>
+            <p class="product__description">
+              It’s a 2 bhk multistorey apartment situated in Aqura Builder And
+              Developer Pride, Vadgaon Budruk, Pune
+            </p>
+            <button class="button--flex product__button">
+              <i class="ri-heart-line"></i>
+            </button>
+          </article>
+
+          <article class="product__card">
+            <a href="/product.html">
+              <img src="/assets/home3.jpeg" alt="" class="product__img" />
+            </a>
+            <h3 class="product__title">2 BHK Apartment</h3>
+            <span class="product__price">73.89L</span>
+            <p class="product__description">
+              It’s a 2 bhk multistorey apartment situated in Aqura Builder And
+              Developer Pride, Vadgaon Budruk, Pune.
+            </p>
+            <button class="button--flex product__button">
+              <i class="ri-heart-line"></i>
+            </button>
+          </article>
+
+          <article class="product__card">
+            <a href="/product.html">
+              <img src="/assets/home4.jpeg" alt="" class="product__img" />
+            </a>
+            <h3 class="product__title">2 BHK Apartment</h3>
+            <span class="product__price">59L</span>
             <p class="product__description">
               Beautiful Huge 1 Family House In Heart Of Westbury. Newly
               Renovated With New Wood
@@ -114,15 +160,56 @@
           </article>
 
           <article class="product__card">
-            <a href="/Product/product.html">
-              <img
-                src="/assets/Home2.jpg"
-                alt=""
-                class="product__img"
-              />
+            <a href="/product.html">
+              <img src="/assets/homee1.jpg" alt="" class="product__img" />
             </a>
-            <h3 class="product__title">The Coach House</h3>
-            <span class="product__price">34999.00</span>
+            <h3 class="product__title">2 BHK Apartment</h3>
+            <span class="product__price">46.88L</span>
+            <p class="product__description">
+              It has a built-up area of 756 sqft and is priced at Rs. 46.88 lac
+              . It is an unfurnished property.
+            </p>
+            <button class="button--flex product__button">
+              <i class="ri-heart-line"></i>
+            </button>
+          </article>
+
+          <article class="product__card">
+            <a href="/product.html">
+              <img src="/assets/home2.jpeg" alt="" class="product__img" />
+            </a>
+            <h3 class="product__title">4 BHK Apartment</h3>
+            <span class="product__price">3.71CR</span>
+            <p class="product__description">
+              It’s a 2 bhk multistorey apartment situated in Aqura Builder And
+              Developer Pride, Vadgaon Budruk, Pune
+            </p>
+            <button class="button--flex product__button">
+              <i class="ri-heart-line"></i>
+            </button>
+          </article>
+
+          <article class="product__card">
+            <a href="/product.html">
+              <img src="/assets/home3.jpeg" alt="" class="product__img" />
+            </a>
+            <h3 class="product__title">2 BHK Apartment</h3>
+            <span class="product__price">73.89L</span>
+            <p class="product__description">
+              It’s a 2 bhk multistorey apartment situated in Aqura Builder And
+              Developer Pride, Vadgaon Budruk, Pune.
+            </p>
+            <button class="button--flex product__button">
+              <i class="ri-heart-line"></i>
+            </button>
+          </article>
+
+          <article class="product__card">
+            <a href="/product.html">
+              <img src="/assets/home4.jpeg" alt="" class="product__img" />
+            </a>
+            <h3 class="product__title">2 BHK Apartment</h3>
+            <span class="product__price">59L</span>
             <p class="product__description">
               Beautiful Huge 1 Family House In Heart Of Westbury. Newly
               Renovated With New Wood
@@ -132,122 +219,9 @@
             </button>
           </article>
 
-          <article class="product__card">
-            <a href="/Product/product.html">
-              <img
-                src="/assets/Home3.jpg"
-                alt=""
-                class="product__img"
-              />
-            </a>
-            <h3 class="product__title">White House</h3>
-            <span class="product__price">79999.00</span>
-            <p class="product__description">
-              Beautiful Huge 1 Family House In Heart Of Westbury. Newly
-              Renovated With New Wood
-            </p>
-            <button class="button--flex product__button">
-              <i class="ri-heart-line"></i>
-            </button>
-          </article>
-
-          <article class="product__card">
-            <a href="/Product/product.html">
-              <img
-                src="/assets/Home4.jpg"
-                alt=""
-                class="product__img"
-              />
-            </a>
-            <h3 class="product__title">Modern Apartment</h3>
-            <span class="product__price">59999.00</span>
-            <p class="product__description">
-              Beautiful Huge 1 Family House In Heart Of Westbury. Newly
-              Renovated With New Wood
-            </p>
-            <button class="button--flex product__button">
-              <i class="ri-heart-line"></i>
-            </button>
-          </article>
-
-          <article class="product__card">
-            <a href="/Product/product.html">
-              <img
-                src="/assets/Home1.jpg"
-                alt=""
-                class="product__img"
-              />
-            </a>
-            <h3 class="product__title">Orchard House</h3>
-            <span class="product__price">24999.00</span>
-            <p class="product__description">
-              Beautiful Huge 1 Family House In Heart Of Westbury. Newly
-              Renovated With New Wood
-            </p>
-            <button class="button--flex product__button">
-              <i class="ri-heart-line"></i>
-            </button>
-          </article>
-
-          <article class="product__card">
-            <a href="/Product/product.html">
-              <img
-                src="/assets/Home2.jpg"
-                alt=""
-                class="product__img"
-              />
-            </a>
-            <h3 class="product__title">The Coach House</h3>
-            <span class="product__price">34999.00</span>
-            <p class="product__description">
-              Beautiful Huge 1 Family House In Heart Of Westbury. Newly
-              Renovated With New Wood
-            </p>
-            <button class="button--flex product__button">
-              <i class="ri-heart-line"></i>
-            </button>
-          </article>
-
-          <article class="product__card">
-            <a href="/Product/product.html">
-              <img
-                src="/assets/Home3.jpg"
-                alt=""
-                class="product__img"
-              />
-            </a>
-            <h3 class="product__title">White House</h3>
-            <span class="product__price">79999.00</span>
-            <p class="product__description">
-              Beautiful Huge 1 Family House In Heart Of Westbury. Newly
-              Renovated With New Wood
-            </p>
-            <button class="button--flex product__button">
-              <i class="ri-heart-line"></i>
-            </button>
-          </article>
-
-          <article class="product__card">
-            <a href="/Product/product.html">
-              <img
-                src="/assets/Home4.jpg"
-                alt=""
-                class="product__img"
-              />
-            </a>
-            <h3 class="product__title">Modern Apartment</h3>
-            <span class="product__price">59999.00</span>
-            <p class="product__description">
-              Beautiful Huge 1 Family House In Heart Of Westbury. Newly
-              Renovated With New Wood
-            </p>
-            <button class="button--flex product__button">
-              <i class="ri-heart-line"></i>
-            </button>
-          </article>
+          
         </div>
       </section>
-
 
       <!===== Services =====>
 
@@ -262,9 +236,11 @@
               over 1 million+ homes for sale available on the website, we can
               match you with a house you will want to call home.
             </p>
-            <button class="button--flex service__button">
-              Find home<i class="ri-arrow-right-line button__icon"></i>
-            </button>
+            <a href="#products">
+              <button class="button--flex service__button">
+                Find Home<i class="ri-arrow-right-line button__icon"></i>
+              </button>
+            </a>
           </article>
 
           <article class="service__card">
@@ -274,9 +250,11 @@
               over 1 million+ homes for sale available on the website, we can
               match you with a house you will want to call home.
             </p>
-            <button class="button--flex service__button">
-              Find home<i class="ri-arrow-right-line button__icon"></i>
-            </button>
+            <a href="#products">
+              <button class="button--flex service__button">
+                Find Home<i class="ri-arrow-right-line button__icon"></i>
+              </button>
+            </a>
           </article>
 
           <article class="service__card">
@@ -286,9 +264,11 @@
               over 1 million+ homes for sale available on the website, we can
               match you with a house you will want to call home.
             </p>
-            <button class="button--flex service__button">
-              Sell home<i class="ri-arrow-right-line button__icon"></i>
-            </button>
+            <a href="/sell.html">
+              <button class="button--flex service__button">
+                Sell Home<i class="ri-arrow-right-line button__icon"></i>
+              </button>
+            </a>
           </article>
         </div>
       </section>
@@ -337,6 +317,74 @@
         </div>
       </section>
     </main>
+
+
+    <div id="sell" >
+      <h3 class="service__title-center">Add Property</h3>
+      <table>
+        <tr>
+          <td>
+            <label for="">Enter Property name </label>
+          </td>
+          <td>
+            <input type="text" name="" id="pName" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Enter The Address</label>
+          </td>
+          <td>
+            <input type="text" name="" id="pAdd" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Enter your price</label>
+          </td>
+          <td>
+            <input type="number" name="" id="pPrice">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Enter The Description</label>
+          </td>
+          <td>
+            <input type="text" name="" id="pDescription" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Status</label>
+          </td>
+          <td>
+            <input type="radio" name="Finished" id="Finished" />
+            <label for="Finished">Finished</label>
+            <input type="radio" name="Finished" id="Unfinished" />
+            <label for="Unfinished">Under Construction</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Upload Pictures</label>
+          </td>
+          <td>
+              <input type="file" name="" id="file" accept="image/*">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div id="img" style="width: 200px;"></div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button id="btn" onclick="addProperty()" type="button">Submit</button>
+          </td>
+        </tr>
+      </table>
+    </div>
 
     <!===== Footer =====>
 
@@ -391,6 +439,8 @@
       <p class="footer__copy">&#169; Realty. All rights reserved.</p>
     </footer>
 
-    <script src="/JS/main.js"></script>
+    
+
+    <script src="/js/main.js"></script>
   </body>
 </html>

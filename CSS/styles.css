@@ -712,3 +712,41 @@ img {
     margin: 5rem 0 1rem;
   }
 }
+
+
+
+input{
+  padding: .5rem;
+  /* height: 40px; */
+  border: none;
+  border-radius: .3rem;
+}
+
+table {
+  margin-top: 20px;
+  margin-left: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgoldenrodyellow;
+  padding: 40px;
+  border-radius: 10px;
+  width: 75%;
+} 
+
+label {
+  font-weight: 600;
+}
+
+tr, td {
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+#btn{
+  margin-left: 300px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
