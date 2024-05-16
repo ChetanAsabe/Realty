@@ -41,24 +41,24 @@ window.addEventListener("scroll", scrollHeader);
 // For Sell.html
 
 const chooseFile = document.getElementById("file");
-// const img = document.getElementById("img");
+const img = document.getElementById("img");
 
-// chooseFile.addEventListener("change", () => {
-//   getImgData();
-// });
+chooseFile.addEventListener("change", () => {
+  getImgData();
+});
 
-// function getImgData() {
-//   const files = chooseFile.files[0];
+function getImgData() {
+  const files = chooseFile.files[0];
 
-//   if (files) {
-//     const fileReader = new FileReader();
-//     fileReader.readAsDataURL(files);
+  if (files) {
+    const fileReader = new FileReader();
+    fileReader.readAsDataURL(files);
 
-//     fileReader.addEventListener("load", function () {
-//       img.innerHTML = '<img src="' + this.result + '" />';
-//     });
-//   }
-// }
+    fileReader.addEventListener("load", function () {
+      img.innerHTML = '<img src="' + this.result + '" />';
+    });
+  }
+}
 
 // New Property
 
