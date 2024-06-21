@@ -218,8 +218,6 @@
               <i class="ri-heart-line"></i>
             </button>
           </article>
-
-          
         </div>
       </section>
 
@@ -318,73 +316,91 @@
       </section>
     </main>
 
-
-    <div id="sell" >
-      <h3 class="service__title-center">Add Property</h3>
-      <table>
-        <tr>
-          <td>
-            <label for="">Enter Property name </label>
-          </td>
-          <td>
-            <input type="text" name="" id="pName" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <label for="">Enter The Address</label>
-          </td>
-          <td>
-            <input type="text" name="" id="pAdd" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <label for="">Enter your price</label>
-          </td>
-          <td>
-            <input type="number" name="" id="pPrice">
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <label for="">Enter The Description</label>
-          </td>
-          <td>
-            <input type="text" name="" id="pDescription" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <label for="">Status</label>
-          </td>
-          <td>
-            <input type="radio" name="Finished" id="Finished" />
-            <label for="Finished">Finished</label>
-            <input type="radio" name="Finished" id="Unfinished" />
-            <label for="Unfinished">Under Construction</label>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <label for="">Upload Pictures</label>
-          </td>
-          <td>
-              <input type="file" name="" id="file" accept="image/*">
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div id="img" style="width: 200px;"></div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <button id="btn" onclick="addProperty()" type="button">Submit</button>
-          </td>
-        </tr>
-      </table>
-    </div>
+    <section class="container">
+      <div>
+        <table>
+          <tr>
+            <td>
+              <h2 style="font-weight: bolder; font-size: x-large">
+                Add Property
+              </h2>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" name="" id="pName" placeholder="Enter Name" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name=""
+                id="pAdd"
+                placeholder="Enter Address"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="number"
+                name=""
+                id="pPrice"
+                placeholder="Enter Price"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td style="display: flex; align-items: center; gap: 5px">
+              <input
+                type="text"
+                name=""
+                id="pDescription"
+                placeholder="Enter Description"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="">Status</label>
+              <input
+                style="width: 1rem"
+                type="radio"
+                name="Finished"
+                id="Finished"
+              />
+              <label for="Finished">Finished</label>
+              <input
+                style="width: 1rem"
+                type="radio"
+                name="Finished"
+                id="Unfinished"
+              />
+              <label for="Unfinished">Under Construction</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label class="label" for="file">Upload Pictures</label>
+              <input type="file" id="file" hidden accept="image/*" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div id="img" style="width: 200px"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button id="btn" onclick="addProperty()" type="button">
+                Submit
+              </button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
 
     <!===== Footer =====>
 
@@ -438,8 +454,6 @@
       </div>
       <p class="footer__copy">&#169; Realty. All rights reserved.</p>
     </footer>
-
-    
 
     <script src="/main.js"></script>
   </body>
