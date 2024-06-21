@@ -592,10 +592,6 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  #sell {
-    width: 24rem;
-  }
-
   .addProperty {
     width: 24rem;
   }
